@@ -1,4 +1,4 @@
------------------------------ MODULE NewTLAA ------------------------------
+----------------------------- MODULE 2_phase_commit_protocol ------------------------------
     EXTENDS Integers, Sequences, FiniteSets, TLC
 CONSTANTS RN, RMMAYFAIL, TMMAYFAIL, BACKUPENABLED
 RM == 1..RN
